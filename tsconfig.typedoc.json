@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "outDir": "build/es5",
+    "declaration": false,
+    "sourceMap": false
+  },
+  "files": [
+    "src/index.ts",
+    "../ui-router-core/src/index.ts",
+    "node_modules/typescript/lib/lib.es6.d.ts"
+  ]
+}
